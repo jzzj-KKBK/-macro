@@ -1,11 +1,16 @@
 这个项目的目的是将屏幕的动作录制下来并执行，可以将录制下来的操作转换成vbs
-这样更方便启动、运输，执行前会等待1.5s
-主要是拿来给我们大学生更方便搭建自动化刷网课用的，当然也可以抢东西，不过一般来说抢不过就是了
-感谢 https://blog.csdn.net/qq_27469815/article/details/84065999 的作者，虽然python部分也有很大部分是来源于另外一个作者，但是我找不到他了
+这样更方便启动、运输
+主要是拿来给我们大学生更方便搭建自动化刷网课用的，当然也可以抢东西，不过一般来说抢不过就是了，专业的省去了渲染的过程，直接发包，这是这个脚本比不了的
+这里面的vbs代码是借鉴了别人的，python的也是，不过现在已经魔改的不成原型了...
 还有很多兼容性问题无法处理，后续应该会更新
+1.1	更新精准度、调整了按键属性和时间、现在python中会录制滚轮事件但是vbs还没能成功模拟出来、vbs程序可能在部分电脑上无法使用，我做了一个修复工具						24/6/4
 
-The purpose of this project is to record and execute the actions of the screen, and the recorded actions can be converted into VBS
-This is more convenient to start and transport, and it will wait for 1.5s before execution
-It is mainly used to make it more convenient for us college students to build automated online classes, of course, you can also grab things, but generally speaking, you can't grab it
-Thanks to the author of https://blog.csdn.net/qq_27469815/article/details/84065999, although the python part is also very much from another author, but I can't find him
-There are still a lot of compatibility issues that can't be handled, and they should be updated in the future
+The purpose of this project is to record and execute screen actions, and convert the recorded actions into VBS
+This is more convenient for starting and transportation
+It is mainly used to make it easier for us college students to build automated online courses. Of course, it can also be used to grab things, but generally speaking, it is not possible to beat the competition. The professional version eliminates the rendering process and directly sends the package, which is not possible with scripts
+The VBS code here is borrowed from others, as is the Python code, but it has been modified beyond recognition now
+There are still many compatibility issues that cannot be addressed, and updates should be made in the future
+1.1 Update the accuracy, adjust the key attributes and time. Now python can record the wheel event but vbs has not been successfully simulated. The vbs program may not be available on some computers. I have made a repair tool. 24/6/4
+
+
+------------------------------作者：-KKBK-
